@@ -16,7 +16,7 @@ public class RenCreditTest {
 
     @BeforeSuite
     void setUpAll() {
-        Configuration.downloadsFolder = "/downloads/";
+        Configuration.downloadsFolder = "./downloads/";
         deleteDB();
     }
 
