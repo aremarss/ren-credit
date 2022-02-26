@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "RenCredit",
+    "children" : [ {
+      "name" : "RenCreditTests",
+      "children" : [ {
+        "name" : "Тестовые задания",
+        "children" : [ {
+          "name" : "Первое тестовое задание",
+          "uid" : "678a4f57f42ce7d1",
+          "parentUid" : "f1506912d0f558a54d4ab9955523bafc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1645797940387,
+            "stop" : 1645797944544,
+            "duration" : 4157
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Второе тестовое задание",
+          "uid" : "9098c0da75af0278",
+          "parentUid" : "f1506912d0f558a54d4ab9955523bafc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1645797946079,
+            "stop" : 1645797951304,
+            "duration" : 5225
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f1506912d0f558a54d4ab9955523bafc"
+      } ],
+      "uid" : "6dd3d1955ff5280d20167de8285be449"
+    } ],
+    "uid" : "026872c123c4f27fa4e4f4948bf85a87"
+  } ]
+}

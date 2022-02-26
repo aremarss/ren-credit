@@ -1,0 +1,197 @@
+{
+  "uid" : "678a4f57f42ce7d1",
+  "name" : "Первое тестовое задание",
+  "fullName" : "test.RenCreditTest.testRenCreditFirst",
+  "historyId" : "69bfd3c91985905fb29cc85dc75d731c",
+  "time" : {
+    "start" : 1645797940387,
+    "stop" : 1645797944544,
+    "duration" : 4157
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1645797929567,
+      "stop" : 1645797940186,
+      "duration" : 10619
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Переход на главную страницу rencredit.ru",
+      "time" : {
+        "start" : 1645797939898,
+        "stop" : 1645797940186,
+        "duration" : 288
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "name" : "setUpAll",
+    "time" : {
+      "start" : 1645797928632,
+      "stop" : 1645797929509,
+      "duration" : 877
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Переход на страницу Калькулятора доходности",
+      "time" : {
+        "start" : 1645797940387,
+        "stop" : 1645797942486,
+        "duration" : 2099
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Открытие страницы Вкладов",
+      "time" : {
+        "start" : 1645797942486,
+        "stop" : 1645797942554,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Заполнение полей на странице Вкладов",
+      "time" : {
+        "start" : 1645797942683,
+        "stop" : 1645797943878,
+        "duration" : 1195
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "amount",
+        "value" : "1_400_000"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Переход на страницу Тарифов и условий",
+      "time" : {
+        "start" : 1645797943878,
+        "stop" : 1645797943998,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Скачивание актуального документа",
+      "time" : {
+        "start" : 1645797943998,
+        "stop" : 1645797944533,
+        "duration" : 535
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.RenCreditTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.RenCreditTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRenCreditFirst"
+  }, {
+    "name" : "parentSuite",
+    "value" : "RenCredit"
+  }, {
+    "name" : "suite",
+    "value" : "RenCreditTests"
+  }, {
+    "name" : "subSuite",
+    "value" : "Тестовые задания"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP"
+  }, {
+    "name" : "thread",
+    "value" : "11620@DESKTOP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "678a4f57f42ce7d1.json",
+  "parameterValues" : [ ]
+}

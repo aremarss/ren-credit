@@ -1,0 +1,6 @@
+.idea
+.allure
+build/
+target
+!**/src/main/**
+!**/src/test/**
