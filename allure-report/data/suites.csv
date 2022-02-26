@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Feb 25 17:05:46 MSK 2022","Fri Feb 25 17:05:51 MSK 2022","5225","RenCredit","RenCreditTests","Тестовые задания","test.RenCreditTest","testRenCreditSecond","Второе тестовое задание",""
+"passed","Fri Feb 25 17:05:40 MSK 2022","Fri Feb 25 17:05:44 MSK 2022","4157","RenCredit","RenCreditTests","Тестовые задания","test.RenCreditTest","testRenCreditFirst","Первое тестовое задание",""

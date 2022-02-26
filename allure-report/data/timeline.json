@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP",
+    "children" : [ {
+      "name" : "11620@DESKTOP.main(1)",
+      "children" : [ {
+        "name" : "Первое тестовое задание",
+        "uid" : "678a4f57f42ce7d1",
+        "parentUid" : "c249c03b532cd5e25af4acabe4b0e508",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645797940387,
+          "stop" : 1645797944544,
+          "duration" : 4157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Второе тестовое задание",
+        "uid" : "9098c0da75af0278",
+        "parentUid" : "c249c03b532cd5e25af4acabe4b0e508",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645797946079,
+          "stop" : 1645797951304,
+          "duration" : 5225
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c249c03b532cd5e25af4acabe4b0e508"
+    } ],
+    "uid" : "0c257401e36059c47eb161009319d0d4"
+  } ]
+}

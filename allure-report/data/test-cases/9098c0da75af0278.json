@@ -1,0 +1,182 @@
+{
+  "uid" : "9098c0da75af0278",
+  "name" : "Второе тестовое задание",
+  "fullName" : "test.RenCreditTest.testRenCreditSecond",
+  "historyId" : "46271f5650fbfd42c028d7686fdf7559",
+  "time" : {
+    "start" : 1645797946079,
+    "stop" : 1645797951304,
+    "duration" : 5225
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1645797944560,
+      "stop" : 1645797946074,
+      "duration" : 1514
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Переход на главную страницу rencredit.ru",
+      "time" : {
+        "start" : 1645797945955,
+        "stop" : 1645797946074,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "name" : "setUpAll",
+    "time" : {
+      "start" : 1645797928632,
+      "stop" : 1645797929509,
+      "duration" : 877
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Переход на страницу Заполнения заявки на карту",
+      "time" : {
+        "start" : 1645797946079,
+        "stop" : 1645797947784,
+        "duration" : 1705
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Открытие страницы Заказа карты",
+      "time" : {
+        "start" : 1645797947784,
+        "stop" : 1645797947822,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Ввод корректных значений в поля",
+      "time" : {
+        "start" : 1645797948217,
+        "stop" : 1645797950518,
+        "duration" : 2301
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "info",
+        "value" : "DataHelper.AuthInfo(lastName=Комиссарова, firstName=Роман, phone=9123456789, mail=ressie.jerde@yahoo.com, gender=Женский, place=Пензенская область, city=Пенза)"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Открытие формы заполнения паспортных данных",
+      "time" : {
+        "start" : 1645797950518,
+        "stop" : 1645797951304,
+        "duration" : 786
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.RenCreditTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.RenCreditTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRenCreditSecond"
+  }, {
+    "name" : "parentSuite",
+    "value" : "RenCredit"
+  }, {
+    "name" : "suite",
+    "value" : "RenCreditTests"
+  }, {
+    "name" : "subSuite",
+    "value" : "Тестовые задания"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP"
+  }, {
+    "name" : "thread",
+    "value" : "11620@DESKTOP.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9098c0da75af0278.json",
+  "parameterValues" : [ ]
+}
