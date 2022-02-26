@@ -14,7 +14,7 @@ public class CalculatorPage {
     SelenideElement inputAmount = $x("//label[text()='Сумма вклада']/..//input");
     SelenideElement sliderTerm = $x("//div[@data-property='period']//span");
     SelenideElement forPeriod = $x("//label[text()='На срок']");
-    SelenideElement buttonTariffsAndConditions = $x("//a[text()='Тарифы и условия']");
+    SelenideElement buttonTariffsAndConditions = $x("//div[@class='footer-mobile-nav__content js-footer-mobile-nav']//a[text()='Тарифы и условия']");
 
     @Step("Открытие страницы Вкладов")
     public void openCalculatorPage() {
